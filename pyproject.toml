@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tmt-translation-sdk"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python SDK for the Google TMT Translation API"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -30,7 +30,7 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://tmt.ilprl.ku.edu.np/lang-translate"
+Homepage = "https://github.com/phuyalgaurav/tmt-translation-sdk"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/tmt_translation_sdk"]
