@@ -2,6 +2,19 @@
 
 This page covers the main translation client, the request parameters, and the API behavior.
 
+
+## Language Codes
+These are the aliases accepted for the `src_lang` and `tgt_lang` parameters in the translation methods:
+```py
+    "en": "English",
+    "eng": "English",
+    "english": "English",
+    "ne": "Nepali",
+    "nep": "Nepali",
+    "nepali": "Nepali",
+    "tmg": "Tamang",
+    "tamang": "Tamang",
+```
 ## API Behavior
 
 - Base URL: `https://tmt.ilprl.ku.edu.np/lang-translate`
